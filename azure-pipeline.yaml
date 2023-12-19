@@ -6,7 +6,5 @@ pool:
 
 jobs:
   - job: BuildAndTest
-    strategy:
-      parallel: none
     steps:
       - checkout: self
