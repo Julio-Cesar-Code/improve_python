@@ -10,7 +10,3 @@ jobs:
       parallel: none
     steps:
       - checkout: self
-
-      - task: UsePythonVersion@0
-        inputs:
-          versionSpec: "3.8" # Ajusta la versión de Python según tus necesidades
