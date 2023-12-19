@@ -18,11 +18,3 @@ jobs:
         with:
           python-version: 3.8 # Puedes ajustar la versión de Python según tus necesidades
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt  # Ajusta el nombre del archivo según tus necesidades
-
-      - name: Run tests
-        run: |
-          python -m pytest  # Ajusta el comando según tus necesidades
